@@ -1,0 +1,19 @@
+# Ignore local appsettings containing secrets
+appsettings.json
+appsettings.Development.json
+
+# Visual Studio
+.vs/
+
+# Build outputs
+bin/
+obj/
+
+# User secrets file is stored outside project, but ignore common secret files
+secrets.json
+.env
+
+# Other
+*.user
+*.suo
+
